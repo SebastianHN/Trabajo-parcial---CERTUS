@@ -1,42 +1,97 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="estilos.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="custom.css" />
   <title>Catálogo de productos de cocina</title>
 </head>
-<body>
-  <h1>Catálogo de productos de cocina</h1>
-    <table>
-        <tr>
-            <td>
-                <div class="Producto">
-                <img src="olla.jpg" width="120px" height="120px" alt="Producto 1">
-                <h3>Olla metalica negra</h3>
-                <p>Olla para cocinar de color negro hecha de acero inoxidable</p>
-                <p>Precio: S/. 10.00</p>
-              </div>
-            </td>
-            <td>
-                <div class="Producto">
-                    <img src="sarten.jpg" width="120px" height="120px" alt="Producto 2">
-                    <h3>Sarten Negra</h3>
-                    <p>Sarten negra de cocina de acero inoxidable</p>
-                    <p>Precio: S/. 15.00</p>
-                </div>
-            </td>
-            <td>
-                <div class="Producto">
-                    <img src="cuchillos.jpg" width="120px" height="120px" alt="Producto 3">
-                    <h3>Cuchillos de Cocina</h3>
-                    <p>Cuchillos de cocina para carne, vegetables, para comer, etc.</p>
-                    <p>Precio: S/. 20.00</p>
-                </div>
-            </td>
-        </tr>
-    </table>
-  <!-- Agrega más productos según sea necesario -->
 
+<body>
+  <header>
+    <h1>Culinova</h1>
+    <h2>Productos de Calidad para tu cocina</h2>
+  </header>
+
+  <main class="Productos">
+    <!-- Articulo 01 -->
+    <article>
+      <img class="imgProduct" src="imagenes/olla.jpg" alt="Olla">
+      <h3>Olla metalica negra</h3>
+      <p>
+        <span class="precioOriginal">S/ 90.00</span> <span class="precioDescuento">-50%</span>
+        <br><span class="precioFinal">S/ 45.00</span>
+      </p>
+      <button>Agregar al carrito</button>
+    </article>
+
+    <article>
+      <img class="imgProduct" src="imagenes/sarten.jpg" alt="Sarten">
+      <h3>Sarten Negra</h3>
+      <p>
+        <span class="precioOriginal">S/ 75.00</span> <span class="precioDescuento">-50%</span>
+        <br><span class="precioFinal">S/ 37.50</span>
+      </p>
+      <button>Agregar al carrito</button>
+    </article>
+    <article>
+      <img class="imgProduct" src="imagenes/cuchillos.jpg" alt="Cuchillos de Metal">
+      <h3>Cuchillos de Cocina</h3>
+      <p>
+        <span class="precioOriginal">S/ 66.00</span> <span class="precioDescuento">-50%</span>
+        <br><span class="precioFinal">S/ 33.00</span>
+      </p>
+      <button>Agregar al carrito</button>
+    </article>
+    <article>
+      <img class="imgProduct" src="imagenes/tablas.webp" alt="Tabla de Madera">
+      <h3>Tablas de cortar de Madera</h3>
+      <p>
+        <span class="precioOriginal">S/ 24.90</span> <span class="precioDescuento">-50%</span>
+        <br><span class="precioFinal">S/ 12.50</span>
+      </p>
+      <button>Agregar al carrito</button>
+    </article>
+    <article>
+      <img class="imgProduct" src="imagenes/Batidoras de mano.webp" alt="Batidora de mano">
+      <h3>Batidora de mano</h3>
+      <p>
+        <span class="precioOriginal">S/ 79.00</span> <span class="precioDescuento">-10%</span>
+        <br><span class="precioFinal">S/ 71.10</span>
+      </p>
+      <button>Agregar al carrito</button>
+    </article>
+    <article>
+      <img class="imgProduct" src="imagenes/exprimidor.webp" alt="Exprimidor">
+      <h3>Exprimidor Citrico</h3>
+      <p>
+        <span class="precioOriginal">S/ 89.00</span> <span class="precioDescuento">-42%</span>
+        <br><span class="precioFinal">S/ 52.00</span>
+      </p>
+      <button>Agregar al carrito</button>
+    </article>
+    <article>
+      <img class="imgProduct" src="imagenes/hervidor.webp" alt="Hervidor">
+      <h3>Hervidor Electrico</h3>
+      <p>
+        <span class="precioOriginal">S/ 79.00</span> <span class="precioDescuento">-22%</span>
+        <br><span class="precioFinal">S/ 59.00</span>
+      </p>
+      <button>Agregar al carrito</button>
+    </article>
+    <article>
+      <img class="imgProduct" src="imagenes/tostadora.jpg" alt="Hervidor">
+      <h3>tostadora</h3>
+      <p>
+        <span class="precioOriginal">S/ 200.00</span> <span class="precioDescuento">-10%</span>
+        <br><span class="precioFinal">S/ 180.00</span>
+      </p>
+      <button>Agregar al carrito</button>
+    </article>
+  </main>
+  <!-- Agrega más productos según sea necesario -->
+  <footer>© Creado por Sebastian Horna Niño</footer>
 </body>
+
 </html>

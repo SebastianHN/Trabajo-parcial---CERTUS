@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catalogo</title>
+  <link rel="stylesheet" href="custom.css">
+
+</head>
+
+<body>
+  <main class="formularioCrear">
+    <!-- Formulario para creacion de cuenta -->
+    <form id="CrearCuenta" action="envio.html" method="post">
+      <h2>Crear Cuenta</h2>
+      <div>
+        <label for="txtNombre">Nombre</label>
+        <input type="text" name="nombre" id="txtNombre" placeholder="Ingrese su nombre aqui" maxlength="50" required>
+      </div>
+      <div>
+        <label for="txtApellido">Apellido</label>
+        <input type="text" name="apellido" id="txtApellido" placeholder="Ingrese su apellido aqui" maxlength="50"
+          required>
+      </div>
+      <div>
+        <label for="txtDNI">DNI</label>
+        <input type="number" name="dni" id="txtDNI" placeholder="Ingrese su DNI aqui" maxlength="8" required>
+      </div>
+      <div>
+        <label for="txtemail">Email</label>
+        <input type="email" name="email" id="txtemail" placeholder="Ingrese su email aqui" maxlength="30" required>
+      </div>
+      <div>
+        <label for="idFecNac">Fecha de Nacimiento</label>
+        <input type="date" name="fechanacimiento" id="idFecNac" min="1970-12-31" max="2005-12-31" required>
+      </div>
+      <div>
+        <label for="">Sexo</label>
+        <input type="radio" name="sexo" id="idMasculino" value="m" checked>
+        <label for="idMasculino" style="display:inline-block">Masculino</label>
+        <input type="radio" name="sexo" id="idFemenino" value="f">
+        <label for="idFemenino" style="display:inline-block">Femenino</label>
+      </div>
+      <div>
+        <label for="txtUsuario">Usuario</label>
+        <input type="text" name="Usuario" id="txtUsuario" placeholder="Ingrese su Usuario aqui" maxlength="50" required>
+      </div>
+      <div>
+        <label for="txtContrasena">Contraseña</label>
+        <input type="password" name="Contrasena" id="txtContrasena" placeholder="Ingrese su Contraseña aqui"
+          maxlength="50" required>
+      </div>
+      <div>
+        <label for="txtCelular">Telefono/Celular</label>
+        <input type="tel" name="celular" id="txtCelular" maxlength="9" required>
+      </div>
+
+      <div>
+        <label for="txtDireccion1">Dirección</label>
+        <input type="text" name="direccion1" id="txtDireccion1" required><br>
+        <input type="text" name="direccion2" id="txtDireccion2">
+      </div>
+      <div>
+        <input type="checkbox" id="Aceptar" required>
+        <label for="Aceptar" style="display:inline-block">Acepta las <a href="#">condiciones</a> para crear esta
+          cuenta</label>
+      </div>
+      <div>
+        <button type="submit">Enviar</button>
+      </div>
+    </form>
+  </main>
+</body>
+
+</html>

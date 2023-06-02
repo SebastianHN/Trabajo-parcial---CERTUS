@@ -1,0 +1,119 @@
+/*Estilo Global*/
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.05em;
+    color: #1c1c1c;
+    box-sizing: border-box;
+}
+/*Estilos  de titulos*/
+header > h1{
+    font-size: 1.5em;
+    color: #0D05F2;
+}
+header > h2{
+    font-size: 1.1em;
+    color: #0D05F2;
+}
+/* Body */
+body{
+    background-image: url(Imagenes/Fondo.jpg);
+    background-attachment: fixed;
+}
+
+/* Pagina Formulario */
+.formularioCrear{
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #f8edd9;
+    padding: 20px 40px;
+    text-align: center;
+}
+
+/* Elementos del Formulario */
+label{
+    display: block;
+}
+#CrearCuenta > div{
+    margin-bottom: 20px;
+}
+
+#CrearCuenta > div > input[type="text"], #CrearCuenta > div > input[type="number"], #CrearCuenta > div > input[type="tel"],#CrearCuenta > div > input[type="email"], #CrearCuenta > div > input[type="password"]{
+    width: 100%;
+    padding: 10px;
+}
+/*Elementos del Catalogo*/
+
+header{
+    text-align: center;
+    font-size: 1.8em;
+    color: #0D05F2;
+    background: url(Imagenes/header.jpg);
+    background-size: cover;
+    margin: 0px;
+    padding: 20px 40px;
+}
+/*Elementos  de catalogo*/
+.Productos{
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #F4D5B8;
+    padding: 20px 40px;
+    text-align: center;
+}
+
+/*Articulos*/
+article{
+    width: 22%;
+    display: inline-block;
+    min-width: 280px;
+    border: #BEBDB9 2px solid;
+    margin: 20px 8px;
+}
+
+article:hover{
+    border: #84be72 2px solid;
+}
+
+article > p{
+    margin: 10px 0px;
+}
+
+article > h3 {
+    margin: 6px;
+    font-weight: 500;
+}
+
+article > img{
+    height: 250px;
+    width: 100%;    
+}
+
+article > button{
+    margin-bottom: 20px;
+    font-size: 1em;
+    padding: 6px 15px;
+}
+
+.precioOriginal{
+    text-decoration: line-through;
+}
+
+.precioDescuento{
+    color: #dd890b;
+    font-weight: 500;
+}
+
+.precioFinal{
+    color: #7a7975;
+    font-weight: bolder;
+}
+
+/* Pie de Página */
+footer{
+    background: #1c1c1c;
+    padding: 20px;
+    text-align: center;
+    color: aliceblue;  
+}
