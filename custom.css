@@ -53,6 +53,15 @@ header{
     margin: 0px;
     padding: 20px 40px;
 }
+
+/* Crear Cuenta */
+header > a{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    color: rgb(3, 109, 109);
+}
+
 /*Elementos  de catalogo*/
 .Productos{
     max-width: 1500px;
@@ -62,6 +71,7 @@ header{
     padding: 20px 40px;
     text-align: center;
 }
+
 
 /*Articulos*/
 article{
