@@ -95,8 +95,8 @@ article > h3 {
     font-weight: 500;
 }
 
-.licuadora{
-    height: 254px;
+article > img[alt="Licuadora"]{
+    height: 253px;
     width: 100%; 
 }
 
